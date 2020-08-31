@@ -1,8 +1,0 @@
-pragma solidity 0.5.12;
-
-contract HelloWorld {
-    string public message ="Hello World";
-
-    function getMessage() public view returns(string memory)
-
-}
