@@ -49,7 +49,7 @@ contract HelloWorld{
     }
 
 
-    // UPDATE FUNCTIE WERKT ALLEEN NIET OP SPECIFIEKE USERS!!!! DAT MOET IK NOG INTEGREREN
+
     function updatePerson  (string memory name, uint age, uint height) public  {
 
         require(msg.sender == owner);
